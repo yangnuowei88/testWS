@@ -1,0 +1,44 @@
+#app {
+  display: flex;
+}
+
+.operate {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin-right: 10px;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+#result {
+  flex-grow: 1;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.message-item {
+  position: relative;
+  background-color: aquamarine;
+  border-left: 2px solid seagreen;
+  padding: 4px;
+  margin-bottom: 4px;
+}
+
+.message-item .time {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  color: #ccc;
+  font-size: 12px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
